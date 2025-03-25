@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bienvenida</title>
+</head>
+<body>
+    <h1>Introduce tu nombre</h1>
+    <input type="text" id="nombreInput">
+    <button onclick="mostrarMensaje()">Enviar</button>
+    <p id="mensaje"></p>
+    <img src="zorro-baile.gif" height="250%" alt="">
+
+    <script>
+        // Función para capturar el nombre y mostrar los mensajes
+        function mostrarMensaje() {
+            let nombre = document.getElementById("nombreInput").value;
+
+           
+                // Mostrar el mensaje en una alerta
+                alert("Hola, " + nombre + ", bienvenido a la práctica de JavaScript!");
+
+                // Mostrar el mensaje en el documento web
+                document.getElementById("mensaje").textContent = "Hola, " + nombre + ", bienvenido a la práctica de JavaScript!";
+
+                // Mostrar el mensaje en la consola
+                console.log("Hola, " + nombre + ", bienvenido a la práctica de JavaScript!");
+          
+        }
+    </script>
+</body>
+</html>
