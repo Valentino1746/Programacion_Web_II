@@ -1,11 +1,3 @@
-// Solicitar una cadena al usuario
-//let nombre = prompt("Por favor, ingresa tu nombre:");
-
-// Mostrar el valor ingresado
-//console.log("El nombre ingresado es: " + nombre);
-
-//let text = `Welcome ${firstName}, ${lastName}!`;
-
 function saludoPersonalizado(){
 	let nombre = prompt("Por favor, ingresa tu nombre:");
 	let edad = prompt("Por favor, ingresa tu edad:");
